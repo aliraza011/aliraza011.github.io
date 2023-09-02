@@ -1,12 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - aliraza011
+  
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - aliraza011/arrhythmia-detection
+  - aliraza011/Anomaly-detection-using-Transformer-based-autoencoders
+  - aliraza011/Identity-based-encryption
+  - aliraza011/ECG-with-XAI
+  - aliraza011/HAR-with-Transformers
+  - aliraza011/Broadcast-Encryption
+  - aliraza011/Predicate-based-encryption
+  
