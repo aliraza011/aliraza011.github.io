@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+New publication submitted to IEEE Transactions of Security & Privacy.
