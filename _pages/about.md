@@ -6,7 +6,7 @@ subtitle: University Of Kent and University of Lille
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: alipic.png
   image_circular: true # crops the image to make it circular
   address: >
     <p>office R10 MDS ENSAIT, Roubaix</p>
