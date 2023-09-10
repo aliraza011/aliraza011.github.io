@@ -31,5 +31,11 @@ The true potential of machine learning can only be unleashed when it is trustwor
 <li>B.S in Computer Engineering, UET Taxila, Pakistan.</li>
 </ul>  
 
-
+<h5>Affiliated Research Groups</h5>
+<ul>
+<li>ICSS, University of Kent, England</li>
+<li>HCD, Gemtex Ensait, University of Lille, France</li>
+<li>IAD, Donga University, Vietnam</li>
+<li>B.S in Computer Engineering, UET Taxila, Pakistan.</li>
+</ul>  
 
