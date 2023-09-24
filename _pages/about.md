@@ -17,7 +17,7 @@ profile:
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 <p>
 I am deeply committed to the establishment of an intelligence infrastructure that facilitates collaborative machine learning, while concurrently engaging in the broader realms of data generation, utilization, and governance. My endeavors revolve around the utilization of theoretical constructs as a guiding framework for the development of practical systems. My work hitherto has encompassed diverse areas, including but not limited to federated learning, decentralized learning, explainable AI, and robustness, security and privacy of AI systems.</p>
