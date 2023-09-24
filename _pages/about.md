@@ -20,9 +20,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <p>
-I am deeply committed to the establishment of an intelligence infrastructure that facilitates collaborative machine learning, while concurrently engaging in the broader realms of data generation, utilization, and governance. My endeavors revolve around the utilization of theoretical constructs as a guiding framework for the development of practical systems. My work hitherto has encompassed diverse areas, including but not limited to federated learning, decentralized learning, explainable AI, and robustness, security and privacy of AI systems.
-
-The true potential of machine learning remains unrealized until it attains a level of trustworthiness and responsibility that is beyond reproach. My conviction lies in the meticulous construction, design, and comprehensive comprehension of the intricate behavior exhibited by machine learning systems. This dedication is driven by the imperative to avert any inadvertent occurrences of bias, security vulnerabilities, and breaches of privacy, which I deem to be among the most pressing challenges confronting us at present.
+I am deeply committed to the establishment of an intelligence infrastructure that facilitates collaborative machine learning, while concurrently engaging in the broader realms of data generation, utilization, and governance. My endeavors revolve around the utilization of theoretical constructs as a guiding framework for the development of practical systems. My work hitherto has encompassed diverse areas, including but not limited to federated learning, decentralized learning, explainable AI, and robustness, security and privacy of AI systems.</p>
+<p>
+The true potential of machine learning remains unrealized until it attains a level of trustworthiness and responsibility that is beyond reproach. My conviction lies in the meticulous construction, design, and comprehensive comprehension of the intricate behavior exhibited by machine learning systems. This dedication is driven by the imperative to avert any inadvertent occurrences of bias, security vulnerabilities, and breaches of privacy, which I deem to be among the most pressing challenges confronting us at present.</p>
 
 <h5> Education</h5>
 <ul>
