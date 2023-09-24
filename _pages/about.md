@@ -20,8 +20,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <p>
-I am interested in building intelligence infrastructure to enable collaborative machine learning, and more generally in the generation, usage, and governance of data. My work attempts to use theory as a guide to building systems that work in the real world. So far, it has involved topics such as federated learning, decentralized learning, explainable AI, robustness, security, and privacy.</p>
-The true potential of machine learning can only be unleashed when it is trustworthy and responsible. Carefully building, designing, and understanding complex behavior of machine learning systems to avoid any unintended bias, security, and privacy concerns is, I believe, one of the most pressing problems we currently face.
+I am deeply committed to the establishment of an intelligence infrastructure that facilitates collaborative machine learning, while concurrently engaging in the broader realms of data generation, utilization, and governance. My endeavors revolve around the utilization of theoretical constructs as a guiding framework for the development of practical systems. My work hitherto has encompassed diverse areas, including but not limited to federated learning, decentralized learning, explainable AI, and robustness, security and privacy of AI systems.
+
+The true potential of machine learning remains unrealized until it attains a level of trustworthiness and responsibility that is beyond reproach. My conviction lies in the meticulous construction, design, and comprehensive comprehension of the intricate behavior exhibited by machine learning systems. This dedication is driven by the imperative to avert any inadvertent occurrences of bias, security vulnerabilities, and breaches of privacy, which I deem to be among the most pressing challenges confronting us at present.
 
 <h5> Education</h5>
 <ul>
