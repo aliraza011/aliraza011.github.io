@@ -26,6 +26,7 @@ The true potential of machine learning remains unrealized until it attains a lev
 
 <h5> Education</h5>
 <ul>
+<li>PostDoc, Ensait, University of Lille.</li>
 <li>Ph.D. in Computer Science, University of Kent, UK.</li>
 <li>Ph.D. in Informatics and Automatics, University of Lille, France.</li>
 <li>M.S in Electronics and Computer Engineering, Hongik University, South Korea.</li>
