@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Senior Scientist| Artificial Intellignce for Security and Pirvacy
+subtitle: Senior Scientist| Artificial Intelligence for Security and Privacy
 
 profile:
   align: right
