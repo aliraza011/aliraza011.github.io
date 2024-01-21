@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: University Of Kent and University of Lille
+subtitle: Senior Scientist| Artificial Intellignce for Security and Pirvacy
 
 profile:
   align: right
   image: alipic.PNG
   image_circular: true # crops the image to make it circular
   address: >
-    <p>office R10 MDS ENSAIT, Roubaix</p>
-    <p>Email: ar718[at]kent[dot]ac[dot]uk</p>
+    <p>Will be Updated Soon</p>
+    <p>Email: a.razaraki@yahoo.com</p>
 
     
 
@@ -33,11 +33,11 @@ The true potential of machine learning remains unrealized until it attains a lev
 <li>B.S in Computer Engineering, UET Taxila, Pakistan.</li>
 </ul>  
 
-<h5>Affiliated Research Groups</h5>
+<h5>Research Groups</h5>
 <ul>
-<li>ICSS, University of Kent, England</li>
-<li>HCD, Gemtex Ensait, University of Lille, France</li>
-<li>IAD, Donga University, Vietnam</li>
-
+<li>Honorary associate member at ICSS, University of Kent, England</li>
+<li>Visiting Researcher at AID, Donga University, Vietnam</li>
+<li>Ex- Research associate at HCD, Gemtex Ensait, University of Lille, France</li>
+<li>Ex- Research associate at Machine Learning and Security lab, Gachon Univeristy, South Korea</li>
 </ul>  
 
