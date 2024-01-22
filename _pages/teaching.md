@@ -8,11 +8,14 @@ nav_order: 5
 ---
 
 
+<h5> Education</h5>
+<ul>
+<li>Travel the whole world. (on my way).</li>
+<li>Solo Sky-diving. </li>
+<li>Start a non-profit Organisation (partially done).</li>
+<li>Get a Docotorate (achieved).</li>
+<li>Will add more soon....</li>
+</ul>  
 
-1: Travel the whole world. (on my way)
-2: Solo Sky-diving. 
-3: Start a non-profit Organisation (partially done).
-4: Get a Docotorate (achieved).
 
 
-Will add more soon....
