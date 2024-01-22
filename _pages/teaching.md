@@ -1,12 +1,18 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
+title: My Bucket List
+description: Following are the things I want to achieve/do before I die
+nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+
+1: Travel the whole world. (on my way)
+2: Solo Sky-diving. 
+3: Start a non-profit Organisation (partially done).
+4: Get a Docotorate (achieved).
+
+
+Will add more soon....
