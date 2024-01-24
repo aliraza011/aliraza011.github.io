@@ -15,7 +15,7 @@ nav_order: 5
 <li>Start a non-profit Organisation. (partially done).</li>
 <li>Get a Docotorate (achieved).</li>
 <li>Get a Private Pilot license </li>
-<li> Publish my book <li>
+<li> Publish my book </li>
 <li> Meet your soul mate</li>
 <li>Will add more soon....</li>
 </ul>  
