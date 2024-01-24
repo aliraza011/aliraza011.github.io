@@ -11,7 +11,7 @@ horizontal: false
 
 <h5> </h5>
 <ul>
-<li>Fourty RUles of Love by Elif Shafak</li>
+<li>Fourty Rules of Love by Elif Shafak</li>
 <li>12 Rules for Life: An Antidote to Chaos by Dr. Jordan B. Peterson </li>
 <li>Human Four Prisions by Dr. Ali Shariati</li>
 <li>Beyond Good and Evil by Friedrich Nietzsche </li>
