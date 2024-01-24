@@ -2,57 +2,22 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+description: Here is a collection of books which I love reading.
+nav: true
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
+<h5> </h5>
+<ul>
+<li>Fourty RUles of Love by Elif Shafak</li>
+<li>12 Rules for Life: An Antidote to Chaos by Dr. Jordan B. Peterson </li>
+<li>Human Four Prisions by Dr. Ali Shariati</li>
+<li>Homosapines</li>
+<li>Beyond Good and Evil by Friedrich Nietzsche </li>
+<li> Sapiens: A Brief History of Humankind by Yuval Noah Harari </li>
+<li> The Black Swan by Nassim Nicholas Taleb</li>
+<li>Skin in the Game: Hidden Asymmetries in Daily Life, by Nassim Nicholas Taleb</li>
+</ul>  
 
-{%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
-</div>
