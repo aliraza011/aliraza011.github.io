@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Books Collection
 permalink: /projects/
 description: Here is a collection of books which I love reading.
 nav: true
