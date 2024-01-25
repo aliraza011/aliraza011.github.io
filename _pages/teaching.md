@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: My Bucket List
-description: Following are the things I want to achieve/do before I die
+description: 
 nav: true
 nav_order: 5
 ---
