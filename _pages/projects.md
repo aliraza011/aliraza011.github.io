@@ -18,5 +18,6 @@ horizontal: false
 <li> Sapiens: A Brief History of Humankind by Yuval Noah Harari </li>
 <li> The Black Swan by Nassim Nicholas Taleb</li>
 <li>Skin in the Game: Hidden Asymmetries in Daily Life, by Nassim Nicholas Taleb</li>
+<li>A brief history of Time by Prof. Dr. Stephan Hawking</li>
 </ul>  
 
