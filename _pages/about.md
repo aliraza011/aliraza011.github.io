@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 <p>
-I am interested in building safe an responsible applications of Artifical intelligence.  My conviction lies in the meticulous construction, design, and comprehensive comprehension of the intricate behavior exhibited by AI systems. This dedication is driven by the imperative to avert any inadvertent occurrences of bias, security vulnerabilities, and breaches of privacy, which I deem to be among the most pressing challenges confronting us at present. I am committed to make AI more responsible and safe for everyone.</p>
+I am interested in building safe and responsible applications of Artifical intelligence.  My conviction lies in the meticulous construction, design, and comprehensive comprehension of the intricate behavior exhibited by AI systems. This dedication is driven by the imperative to avert any inadvertent occurrences of bias, security vulnerabilities, and breaches of privacy, which I deem to be among the most pressing challenges confronting us at present. I am committed to make AI more responsible and safe for everyone.</p>
 
 <h5> Education</h5>
 <ul>
