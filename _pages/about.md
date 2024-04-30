@@ -24,7 +24,7 @@ I am interested in building safe an responsible applications of Artifical intell
 
 <h5> Education</h5>
 <ul>
-<li>PostDoc, Ensait, University of Lille.</li>
+<li>PostDoc, University of Lille.</li>
 <li>Ph.D. in Computer Science, University of Kent, UK.</li>
 <li>Ph.D. in Informatics and Automatics, University of Lille, France.</li>
 <li>M.S in Electronics and Computer Engineering, Hongik University, South Korea.</li>
