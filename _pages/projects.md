@@ -19,5 +19,7 @@ horizontal: false
 <li> The Black Swan by Nassim Nicholas Taleb</li>
 <li>Skin in the Game: Hidden Asymmetries in Daily Life, by Nassim Nicholas Taleb</li>
 <li>A brief history of Time by Prof. Dr. Stephan Hawking</li>
+<li>Think fast and slow by Daniel Kahneman</li>
+
 </ul>  
 
