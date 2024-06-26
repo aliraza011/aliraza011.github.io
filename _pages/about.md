@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Senior Scientist| Artificial Intelligence for Security and Privacy
+subtitle:  AI for Security and Privacy| Explainable AI| NeuroSymbolic AI| Generative AI
 
 profile:
   align: right
