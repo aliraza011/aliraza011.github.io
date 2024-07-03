@@ -27,6 +27,16 @@ I am always open to research collaborations. If you have intriguing research ide
 
 <h5> Education</h5>
 <ul>
+<li>Senior Scientist at Honda Research Institute Europe Uk (2023-Present)</li>
+<li>Associate Lecturer  At University of Kent (2022).</li>
+<li>Associate Researcher Ensait, University of Lille (2020-2022)</li>
+<li>Associate Researcher, Gachon University, South Korea.</li>
+<li>SCOM, Pakistan.</li>
+</ul>  
+
+
+<h5> Education</h5>
+<ul>
 <li>Post-Doc, University of Lille.</li>
 <li>Ph.D. in Computer Science, University of Kent, UK.</li>
 <li>Ph.D. in Informatics and Automatics, University of Lille, France.</li>
