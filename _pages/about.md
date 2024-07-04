@@ -27,7 +27,7 @@ I am always open to research collaborations. If you have intriguing research ide
 
 <h5> Education</h5>
 <ul>
-<li>Senior Scientist at Honda Research Institute Europe Uk (2023-Present)</li>
+<li>Senior Scientist at Honda Research Institute EU, Germany (2023-Present)</li>
 <li>Associate Lecturer  At University of Kent (2022).</li>
 <li>Associate Researcher Ensait, University of Lille (2020-2022)</li>
 <li>Associate Researcher, Gachon University, South Korea (2019)</li>
