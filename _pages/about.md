@@ -25,7 +25,7 @@ I am interested in building safe and responsible applications of Artifical intel
 <p>
 I am always open to research collaborations. If you have intriguing research ideas and would like to work together, please send me an email.</p>
 
-<h5> Education</h5>
+<h5> Work Experience</h5>
 <ul>
 <li>Senior Scientist at Honda Research Institute EU, Germany (2023-Present)</li>
 <li>Associate Lecturer  At University of Kent (2022).</li>
