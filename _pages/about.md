@@ -31,7 +31,6 @@ I am always open to research collaborations. If you have intriguing research ide
 <li>Associate Lecturer  At University of Kent (2022).</li>
 <li>Associate Researcher Ensait, University of Lille (2020-2022)</li>
 <li>Associate Researcher, Gachon University, South Korea (2019)</li>
-<li>SCOM, Pakistan.</li>
 </ul>  
 
 
