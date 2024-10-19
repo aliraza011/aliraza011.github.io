@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   address: >
     <p>Frankfurt, Germany</p>
-    <p>Email: a.razaraki@yahoo.com</p>
+    <p>Email: FirsrName[DOT]LastName[honda-ri][Dot]de</p>
 
     
 
