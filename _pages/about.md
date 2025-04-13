@@ -9,7 +9,7 @@ profile:
   image: alipic.PNG
   image_circular: true # crops the image to make it circular
   address: >
-    <p>Contact:/p>
+  
     <p>Email: firstname.lastname@honda-ri[DOT]de</p>
 
     
@@ -38,4 +38,4 @@ I hold a dual PhD in Computer Science and Informatics & Automatics, specializing
   </ul>
 
 <p>
-Currently, Working as a Senior Scientist at HRI-EU and actively constribute to research and development. I am always open to research collaborations. If you have intriguing research ideas and would like to work together, please send me an email.</p>
+Currently, I am working as a Senior Scientist at HRI-EU and actively constribute to research and development. I am always open to research collaborations. If you have intriguing research ideas and would like to work together, please send me an email.</p>
