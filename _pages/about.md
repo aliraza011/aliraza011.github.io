@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle:  AI for Security and Privacy| Explainable AI| NeuroSymbolic AI| Generative AI
+subtitle:  Artificial Intelligence and Research.
 
 profile:
   align: right
   image: alipic.PNG
   image_circular: true # crops the image to make it circular
   address: >
-    <p>Will be Updated Soon</p>
-    <p>Email: a.razaraki@yahoo.com</p>
+    <p>Contact:/p>
+    <p>Email: firstname.lastname@honda-ri[DOT]de</p>
 
     
 
