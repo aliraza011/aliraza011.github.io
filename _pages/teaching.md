@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: My Bucket List
 description: 
-nav: true
+nav: false
 nav_order: 5
 ---
 
