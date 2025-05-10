@@ -24,8 +24,7 @@ I hold a dual PhD in Computer Science and Informatics & Automatics, specializing
 </p>
  <ul>
     <li>
-      <strong>Generative AI</strong>: Building advanced deep learning models for generating human-like content,
-      with applications in healthcare, language understanding, and time-series signal processing.
+      <strong>Generative AI</strong>: Building advanced deep learning models with applications in healthcare, knowledge understanding, security and privacy.
     </li>
     <li>
       <strong>AI Security & Privacy</strong>: Developing privacy-preserving and secure AI systems through federated learning,
