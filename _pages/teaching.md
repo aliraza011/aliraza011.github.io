@@ -7,10 +7,13 @@ nav: true
 nav_order: 5
 ---
 
-<p><q>A century from now, we will have departed, and unfamiliar faces will inhabit the homes we labored to construct. Our cherished belongings may be discarded, or in the possession of others. The memory of who we once were will fade for our descendants. Contemplating this inevitability, I pause and consider what I want to accomplish before it all becomes a distant past </q></p>
+<p><q> 
+Here you’ll find a collection of the posts I’ve written and continue to write over time. I use this space to share ideas, experiences, and anything interesting I discover along the way. Feel free to explore; new blogs are added regularly!
+
+</q></p>
 
 
-
+<h2>Blog 1: From what They Did To What They Think: The Shift From Clicks to Conversations (12:2025)</h2>
 <iframe 
     src="/assets/blogs/llm_privacy.pdf" 
     width="100%" 
