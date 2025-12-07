@@ -24,7 +24,7 @@ Here you’ll find a collection of the posts I’ve written and continue to writ
     position: absolute;
     top: 30px;          /* distance below title */
     left: 0;
-    width: 700px;
+    width: 750px;
     height: 400px;
     border: 1px solid #ccc;
     z-index: 10;
