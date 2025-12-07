@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-From what They Did To What They Think: The Shift From Clicks to Conversations
+
 Here you’ll find a collection of the posts I’ve written and continue to write over time. I use this space to share ideas, experiences, and anything interesting I discover along the way. Feel free to explore; new blogs are added regularly!
 
 
