@@ -6,14 +6,12 @@ description:
 nav: true
 nav_order: 5
 ---
-
-<p><q> 
+<h4>
+From what They Did To What They Think: The Shift From Clicks to Conversations
 Here you’ll find a collection of the posts I’ve written and continue to write over time. I use this space to share ideas, experiences, and anything interesting I discover along the way. Feel free to explore; new blogs are added regularly!
+</h4>
 
-</q></p>
-
-
-<h2>Blog 1: From what They Did To What They Think: The Shift From Clicks to Conversations (12:2025)</h2>
+<h5>Blog 1: From what They Did To What They Think: The Shift From Clicks to Conversations (12:2025)</h5>
 <iframe 
     src="/assets/blogs/llm_privacy.pdf" 
     width="100%" 
