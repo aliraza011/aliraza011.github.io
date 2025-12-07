@@ -37,7 +37,7 @@ Here you’ll find a collection of the posts I’ve written and continue to writ
 </style>
 
 <div class="pdf-container">
-    <a href="/assets/blogs/llm_privacy.pdf" target="_blank" style="font-size: 10px; font-weight: bold;">
+    <a href="/assets/blogs/llm_privacy.pdf" target="_blank" style="font-size: 15px; font-weight: bold;">
         Blog 1: From what They Did To What They Think: The Shift From Clicks to Conversations (Published: 12/2025)
     </a>
 
