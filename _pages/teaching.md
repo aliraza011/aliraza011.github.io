@@ -18,6 +18,36 @@ Blog 1: From what They Did To What They Think: The Shift From Clicks to Conversa
     height="700px">
 </iframe>
 
+<style>
+.pdf-container {
+    position: relative;
+    display: inline-block;
+}
+
+.pdf-frame {
+    display: none;
+    position: absolute;
+    top: 30px;          /* distance below title */
+    left: 0;
+    width: 600px;
+    height: 400px;
+    border: 1px solid #ccc;
+    z-index: 10;
+}
+
+/* Show iframe on hover */
+.pdf-container:hover .pdf-frame {
+    display: block;
+}
+</style>
+
+<div class="pdf-container">
+    <a href="/assets/blogs/llm_privacy.pdf" target="_blank" style="font-size: 20px; font-weight: bold;">
+        My PDF Title
+    </a>
+
+    <iframe class="pdf-frame" src="/assets/blogs/llm_privacy.pdf"></iframe>
+</div>
 
 
 
