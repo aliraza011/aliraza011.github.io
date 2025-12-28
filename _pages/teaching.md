@@ -45,7 +45,7 @@ Here you’ll find a collection of the posts I’ve written and continue to writ
 </div>
 
 <div class="pdf-container">
-    <a href="/assets/blogs/llm_privacy.pdf" target="_blank" style="font-size: 15px; font-weight: bold;">
+    <a href="/assets/blogs/llm_human_autonomy.pdf" target="_blank" style="font-size: 15px; font-weight: bold;">
         Blog 2: The Illusion of Autonomy: LLMs and the Continuity of Human Imprisonment (Published: 12/2025)
     </a>
 
