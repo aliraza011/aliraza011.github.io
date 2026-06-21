@@ -32,7 +32,7 @@ social: true  # includes social icons at the bottom of the page
   </div>
 
   <div class="col-sm-9">
-    <h4><i>Living with Minds We Made</i></h4>
+    <h4><i>Living with Minds We Made: AI And The Future Of Human Meaning</i></h4>
 
 <p>
   In addition to my scientific research, I am the author of
