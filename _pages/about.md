@@ -26,7 +26,7 @@ social: true  # includes social icons at the bottom of the page
 <div class="row">
   <div class="col-sm-3">
     <img
-      src="{{ '/assets/img/living-with-minds-we-made.jpg' | relative_url }}"
+      src="{{ '/assets/img/living-with-minds-we-made.jpeg' | relative_url }}"
       class="img-fluid rounded z-depth-1"
       alt="Living with Minds We Made">
   </div>
