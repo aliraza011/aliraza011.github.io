@@ -34,7 +34,6 @@ social: true  # includes social icons at the bottom of the page
   <div class="col-sm-9">
     <h4><i>Living with Minds We Made</i></h4>
 
-```
 <p>
   In addition to my scientific research, I am the author of
   <em>Living with Minds We Made</em>, a philosophical reflection on artificial intelligence and the human condition.
@@ -46,7 +45,6 @@ social: true  # includes social icons at the bottom of the page
     Learn more about the book
   </a>
 </p>
-```
 
   </div>
 </div>
