@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 <p>
-I hold dual doctoral degree in Computer Science and in Informatics &amp; Automatics, with a specialization in Machine Learning. During my PhD in Computer Science at the University of Kent, I was supervised by Professor <strong>Shujun Li</strong>. My doctoral research in Informatics &amp; Automatics was supervised by Professor <strong>Ludovic Koehl</strong> and Professor <strong>Kim Phuc Tran</strong>. My research program is centered on several interrelated themes:
+I hold dual doctoral degree in Computer Science and in Informatics &amp; Automatics, with a specialization in Machine Learning. During my PhD in Computer Science at the University of Kent, I was supervised by Professor <a href="https://www.hooklee.com"><strong>Shujun Li</strong></a>. My doctoral research in Informatics &amp; Automatics was supervised by Professor <strong>Ludovic Koehl</strong> and Professor <strong>Kim Phuc Tran</strong>. My research program is centered on several interrelated themes:
 </p>
 
 <ul>
