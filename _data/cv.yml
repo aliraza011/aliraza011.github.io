@@ -3,95 +3,69 @@
   contents:
     - name: Full Name
       value: Ali Raza
-    - name: Date of Birth
-      value: 01th March 1879
+    - name: Role
+      value: AI Researcher, Senior Scientist, Author
+    - name: Email
+      value: a.razaraki@yahoo.com
     - name: Languages
-      value: English, German
+      value: English, German, Urdu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Dual Doctoral Degree
+      institution: Computer Science and Informatics & Automatics
+      year: PhD research
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Machine learning, AI systems, and responsible intelligence
+        - Supervised by Shujun Li, Ludovic Koehl, and Kim Phuc Tran
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Senior Scientist
+      institution: HRI-EU
+      year: Current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Research in AI, security, privacy, and responsible systems
+        - Collaboration on applied and foundational research initiatives
+    - title: Visiting Researcher
+      institution: IAD, Dong-A University
+      year: Current
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Cross-disciplinary research collaboration in AI and applied data science
+    - title: Honorary Member
+      institution: ICSS, University of Kent
+      year: Current
       description:
+        - Engagement with interdisciplinary AI and societal impact research
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Research Focus
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Generative AI
       items:
-        - Description 1.
-        - Description 2.
+        - Deep learning architecture design
+        - Applications in healthcare, knowledge representation, and security contexts
+    - title: AI Security & Privacy
+      items:
+        - Federated learning
+        - Adversarial robustness
+        - Privacy-preserving AI systems
+    - title: Responsible AI
+      items:
+        - Fairness, transparency, and accountability
+        - Explainability and ethical AI development
+
+- title: Publications & Writing
+  type: list
+  contents:
+    - Author of <em>Living with Minds We Made: AI And The Future Of Human Meaning</em>
+    - Research interests spanning responsible AI, security, privacy, and human-centered intelligence
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Ethics in artificial intelligence
+    - Human meaning in the age of intelligent systems
+    - Interdisciplinary research and collaboration

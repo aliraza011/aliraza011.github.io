@@ -19,6 +19,36 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+<div class="homepage-intro">
+  <p class="eyebrow">Researcher • Scientist • Author</p>
+  <h2>Exploring how AI shapes human meaning, society, and security.</h2>
+  <p>
+    I build research at the intersection of machine learning, security, and responsible intelligence, with a focus on systems that are both technically robust and human-centered.
+  </p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="mailto:{{ site.email }}">Get in touch</a>
+    <a class="btn btn-outline-primary" href="{{ '/publications/' | relative_url }}">View research</a>
+  </div>
+</div>
+
+<div class="research-grid">
+  <div class="research-card">
+    <div class="icon-wrap">AI</div>
+    <h3>Generative AI</h3>
+    <p>Designing advanced deep learning architectures for healthcare, knowledge understanding, and trustworthy decision support.</p>
+  </div>
+  <div class="research-card">
+    <div class="icon-wrap">🔒</div>
+    <h3>AI Security &amp; Privacy</h3>
+    <p>Exploring federated learning, adversarial robustness, and privacy-preserving techniques for secure AI systems.</p>
+  </div>
+  <div class="research-card">
+    <div class="icon-wrap">⚖️</div>
+    <h3>Responsible AI</h3>
+    <p>Advancing fairness, transparency, ethics, and explainability to make AI development more accountable.</p>
+  </div>
+</div>
+
 <p>
 I hold dual doctoral degree in Computer Science and in Informatics &amp; Automatics, with a specialization in Machine Learning. I was supervised by  <a href="https://www.hooklee.com"> Shujun Li</a>, <a href="https://www.linkedin.com/in/ludovic-koehl-03499343/" > Ludovic Koehl </a> and <a  href="https://sites.google.com/view/kim-phuc-tran"> Kim Phuc Tran</a> during my PhD. My research program is centered on several interrelated themes:
 </p>
