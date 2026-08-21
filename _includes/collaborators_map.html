@@ -1,18 +1,11 @@
 <!-- collaborators_map.html - Renders an interactive map of collaborators using Leaflet and data from _data/collaborators.yml -->
 <div class="post">
   <header class="post-header">
-    <h2 class="post-title">Collaborators</h2>
-    <p class="desc">Locations of selected collaborators and research partners</p>
   </header>
 
   <article>
     <div class="collab-list-outer">
       <p class="muted">Selected collaborators (click markers on the map)</p>
-      <ul class="collab-list">
-        {%- for c in site.data.collaborators -%}
-          <li><strong>{{ c.name }}</strong>{% if c.city %}, {{ c.city }}{% endif %}{% if c.affiliation %} — {{ c.affiliation }}{% endif %}</li>
-        {%- endfor -%}
-      </ul>
     </div>
 
     <div id="collab-map" class="collab-map" style="min-height:320px;"></div>
