@@ -67,31 +67,14 @@ I currently serve as a Senior Scientist at HRI-EU, where I actively contribute t
     </div>
 
     <div class="col-md-9 col-12 book-details">
-      <p class="eyebrow">Book</p>
-      <h3 class="book-title">Living with Minds We Made: AI And The Future Of Human Meaning</h3>
-      <p class="book-sub">A philosophical and practical exploration of how artificial intelligence reshapes human meaning, ethics, and institutions.</p>
+      <p class="eyebrow">Selected book</p>
+      <h3 class="book-title"><em>Living with Minds We Made: AI And The Future Of Human Meaning</em></h3>
 
-      <p class="book-excerpt">In this book I examine how AI reveals enduring questions about intelligence, freedom, creativity, work, privacy, and meaning — arguing that the central challenge of the AI era is not only technical progress but a deeper understanding of our relationship with intelligent systems.</p>
+      <p class="book-excerpt">This book offers a philosophical reflection on how contemporary artificial intelligence technologies intersect with human meaning, autonomy, and social institutions. It draws on research in AI, ethics, and social theory to argue for approaches that foreground human values while acknowledging technical constraints.</p>
 
-      <div class="book-meta d-flex flex-wrap align-items-center">
-        <span class="badge badge-pill badge-primary">Author</span>
-        <span class="meta-sep">•</span>
-        <span class="muted">Philosophy &amp; AI</span>
-        <span class="meta-sep">•</span>
-        <a class="muted" href="https://www.amazon.de/dp/B0H63LSRSS" target="_blank">Buy on Amazon</a>
-      </div>
+      <p class="book-citation"><strong>Raza, A.</strong> (2025). Living with Minds We Made: AI And The Future Of Human Meaning.</p>
 
-      <div class="book-ctas mt-3">
-        <a class="btn btn-primary mr-2" href="https://www.amazon.de/dp/B0H63LSRSS" target="_blank">Buy the book</a>
-        <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Read an excerpt</a>
-      </div>
-
-      <div class="book-reviews mt-3">
-        <blockquote class="blockquote">
-          <p class="mb-0">"A thoughtful, humane take on AI's implications for what matters to us."</p>
-          <footer class="blockquote-footer">Reviewer name or publication</footer>
-        </blockquote>
-      </div>
+      <p class="book-links">Further information and scholarly resources: <a href="https://www.amazon.de/dp/B0H63LSRSS" target="_blank">book page</a> · <a href="{{ '/publications/' | relative_url }}">related publications</a></p>
     </div>
   </div>
 </div>
