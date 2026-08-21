@@ -46,7 +46,7 @@ social: true  # includes social icons at the bottom of the page
 </div>
 
 <p>
-I hold dual doctoral degree in Computer Science and in Informatics &amp; Automatics, with a specialization in Machine Learning. I was supervised by  <a href="https://www.hooklee.com"> Shujun Li</a>, <a href="https://www.linkedin.com/in/ludovic-koehl-03499343/" > Ludovic Koehl </a> and <a  href="https://sites.google.com/view/kim-phuc-tran"> Kim Phuc Tran</a> during my PhD. My research program is centered on several interrelated themes:
+I hold dual doctoral degree in Computer Science and in Informatics &amp; Automatics, with a specialization in Machine Learning. I was supervised by  <a href="https://www.hooklee.com"> Shujun Li</a>, <a href="https://www.linkedin.com/in/ludovic-koehl-03499343/" > Ludovic Koehl </a> and <a  href="https://sites.google.com/view/kim-phuc-tran"> Kim Phuc Tran</a> during my PhD.
 </p>
 
 <p>
