@@ -27,6 +27,11 @@ social: true  # includes social icons at the bottom of the page
   </div>
 </div>
 
+
+
+<p>
+I hold dual doctoral degree in Computer Science and in Informatics &amp; Automatics, with a specialization in Machine Learning. I was supervised by  <a href="https://www.hooklee.com"> Shujun Li</a>, <a href="https://www.linkedin.com/in/ludovic-koehl-03499343/" > Ludovic Koehl </a> and <a  href="https://sites.google.com/view/kim-phuc-tran"> Kim Phuc Tran</a> during my PhD. My research program is centered on several interrelated themes:
+</p>
 <div class="research-grid">
   <div class="research-card">
     <div class="icon-wrap">AI</div>
@@ -44,10 +49,6 @@ social: true  # includes social icons at the bottom of the page
     <p>Advancing fairness, transparency, ethics, and explainability to make AI development more accountable.</p>
   </div>
 </div>
-
-<p>
-I hold dual doctoral degree in Computer Science and in Informatics &amp; Automatics, with a specialization in Machine Learning. I was supervised by  <a href="https://www.hooklee.com"> Shujun Li</a>, <a href="https://www.linkedin.com/in/ludovic-koehl-03499343/" > Ludovic Koehl </a> and <a  href="https://sites.google.com/view/kim-phuc-tran"> Kim Phuc Tran</a> during my PhD.
-</p>
 
 <p>
 I currently serve as a Senior Scientist at HRI-EU, where I actively contribute to both foundational and applied research initiatives. In addition, I am a Visiting Researcher at IAD, Dong-A University, and an Honorary Member of ICSS, University of Kent, England. I welcome opportunities for academic collaboration and interdisciplinary research; colleagues and prospective collaborators are encouraged to reach out via email to discuss potential joint work.
