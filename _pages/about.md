@@ -57,9 +57,6 @@ I hold dual doctoral degree in Computer Science and in Informatics &amp; Automat
 I currently serve as a Senior Scientist at HRI-EU, where I actively contribute to both foundational and applied research initiatives. In addition, I am a Visiting Researcher at IAD, Dong-A University, and an Honorary Member of ICSS, University of Kent, England. I welcome opportunities for academic collaboration and interdisciplinary research; colleagues and prospective collaborators are encouraged to reach out via email to discuss potential joint work.
 </p>
 
-
-## Book
-
 <div class="book-feature">
   <div class="book-card row align-items-center">
     <div class="col-md-3 col-12 book-cover-wrap">
@@ -72,9 +69,9 @@ I currently serve as a Senior Scientist at HRI-EU, where I actively contribute t
 
       <p class="book-excerpt">This book offers a philosophical reflection on how contemporary artificial intelligence technologies intersect with human meaning, autonomy, and social institutions. It draws on research in AI, ethics, and social theory to argue for approaches that foreground human values while acknowledging technical constraints.</p>
 
-      <p class="book-citation"><strong>Raza, A.</strong> (2025). Living with Minds We Made: AI And The Future Of Human Meaning.</p>
+      <p class="book-citation"><strong>Raza, A.</strong> (2026). Living with Minds We Made: AI And The Future Of Human Meaning.</p>
 
-      <p class="book-links">Further information and scholarly resources: <a href="https://www.amazon.de/dp/B0H63LSRSS" target="_blank">book page</a> · <a href="{{ '/publications/' | relative_url }}">related publications</a></p>
+      <p class="book-links">Read More : <a href="https://www.amazon.de/dp/B0H63LSRSS" target="_blank">book</a></p>
     </div>
   </div>
 </div>
