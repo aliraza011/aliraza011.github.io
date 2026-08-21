@@ -6,59 +6,90 @@
   </header>
 
   <article>
-    <div id="collab-map" class="collab-map"></div>
+    <div class="collab-list-outer">
+      <p class="muted">Selected collaborators (click markers on the map)</p>
+      <ul class="collab-list">
+        {%- for c in site.data.collaborators -%}
+          <li><strong>{{ c.name }}</strong>{% if c.city %}, {{ c.city }}{% endif %}{% if c.affiliation %} — {{ c.affiliation }}{% endif %}</li>
+        {%- endfor -%}
+      </ul>
+    </div>
+
+    <div id="collab-map" class="collab-map" style="min-height:320px;"></div>
   </article>
 </div>
 
-<!-- Leaflet CSS/JS loaded from CDN so this include is self-contained -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
+<!-- Leaflet JS loaded dynamically with a fallback; CSS is provided site-wide in head.html -->
 <script>
-// Initialize map after the page loads
-document.addEventListener("DOMContentLoaded", function () {
+(function () {
+  // Collaborator data injected by Jekyll
+  var collaborators = [];
   try {
-    var mapEl = document.getElementById('collab-map');
-    if (!mapEl) return;
-
-    // Center on Europe by default (adjust as needed)
-    var map = L.map('collab-map', { scrollWheelZoom: false }).setView([51.0, 1.0], 4);
-
-    // OpenStreetMap tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
-
-    // Collaborator data injected by Jekyll
-    var collaborators = [];
-    try {
-      collaborators = {{ site.data.collaborators | jsonify }};
-    } catch (e) {
-      // fallback: if Jekyll didn't render, keep empty
-      collaborators = [];
-    }
-
-    var bounds = [];
-
-    collaborators.forEach(function (c) {
-      if (!c.lat || !c.lon) return;
-      var popup = '<strong>' + (c.name || '') + '</strong>';
-      if (c.affiliation) popup += '<br/>' + c.affiliation;
-      if (c.city) popup += '<br/>' + c.city;
-      if (c.url) popup += '<br/><a href="' + c.url + '" target="_blank" rel="noopener">Website</a>';
-
-      var marker = L.marker([c.lat, c.lon]).addTo(map).bindPopup(popup);
-      bounds.push([c.lat, c.lon]);
-    });
-
-    if (bounds.length === 1) {
-      map.setView(bounds[0], 8);
-    } else if (bounds.length > 1) {
-      map.fitBounds(bounds, { padding: [40, 40] });
-    }
-  } catch (err) {
-    console.error('Collaborators map error:', err);
+    collaborators = {{ site.data.collaborators | jsonify }};
+  } catch (e) {
+    collaborators = [];
   }
-});
+
+  function initCollabMap() {
+    try {
+      var mapEl = document.getElementById('collab-map');
+      if (!mapEl) return;
+
+      if (typeof L === 'undefined') {
+        console.warn('Leaflet is not available.');
+        return;
+      }
+
+      var map = L.map('collab-map', { scrollWheelZoom: false }).setView([51.0, 1.0], 4);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      }).addTo(map);
+
+      var bounds = [];
+      collaborators.forEach(function (c) {
+        if (!c.lat || !c.lon) return;
+        var popup = '<strong>' + (c.name || '') + '</strong>';
+        if (c.affiliation) popup += '<br/>' + c.affiliation;
+        if (c.city) popup += '<br/>' + c.city;
+        if (c.url) popup += '<br/><a href="' + c.url + '" target="_blank" rel="noopener">Website</a>';
+
+        L.marker([c.lat, c.lon]).addTo(map).bindPopup(popup);
+        bounds.push([c.lat, c.lon]);
+      });
+
+      if (bounds.length === 1) {
+        map.setView(bounds[0], 8);
+      } else if (bounds.length > 1) {
+        map.fitBounds(bounds, { padding: [40, 40] });
+      }
+    } catch (err) {
+      console.error('Collaborators map init error:', err);
+    }
+  }
+
+  function ensureLeafletThenInit() {
+    if (typeof L !== 'undefined') {
+      initCollabMap();
+      return;
+    }
+    // attempt to load Leaflet dynamically
+    var script = document.createElement('script');
+    script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    script.onload = function () {
+      initCollabMap();
+    };
+    script.onerror = function (e) {
+      console.error('Failed to load Leaflet:', e);
+    };
+    document.head.appendChild(script);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', ensureLeafletThenInit);
+  } else {
+    ensureLeafletThenInit();
+  }
+})();
 </script>

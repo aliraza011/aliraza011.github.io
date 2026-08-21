@@ -149,3 +149,7 @@ html[data-theme='dark'] .book-links { color: rgba(255,255,255,0.9); }
 /* collaborators map */
 .collab-map { width: 100%; height: 420px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.06); margin-top: 1rem; }
 html[data-theme='dark'] .collab-map { border-color: rgba(255,255,255,0.06); }
+
+.collab-list { list-style: none; padding-left: 0; margin: 0.25rem 0 0.6rem; }
+.collab-list li { margin-bottom: 0.35rem; color: rgba(0,0,0,0.72); }
+html[data-theme='dark'] .collab-list li { color: rgba(255,255,255,0.82); }
