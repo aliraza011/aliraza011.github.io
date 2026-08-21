@@ -60,28 +60,38 @@ I currently serve as a Senior Scientist at HRI-EU, where I actively contribute t
 
 ## Book
 
-<div class="row">
-  <div class="col-sm-3">
-    <img
-      src="{{ '/assets/img/living-with-minds-we-made.jpeg' | relative_url }}"
-      class="img-fluid rounded z-depth-1"
-      alt="Living with Minds We Made">
-  </div>
+<div class="book-feature">
+  <div class="book-card row align-items-center">
+    <div class="col-md-3 col-12 book-cover-wrap">
+      <img src="{{ '/assets/img/living-with-minds-we-made.jpeg' | relative_url }}" alt="Living with Minds We Made" class="book-cover img-fluid rounded" />
+    </div>
 
-  <div class="col-sm-9">
-    <h4><i>Living with Minds We Made: AI And The Future Of Human Meaning</i></h4>
+    <div class="col-md-9 col-12 book-details">
+      <p class="eyebrow">Book</p>
+      <h3 class="book-title">Living with Minds We Made: AI And The Future Of Human Meaning</h3>
+      <p class="book-sub">A philosophical and practical exploration of how artificial intelligence reshapes human meaning, ethics, and institutions.</p>
 
-<p>
-  In addition to my scientific research, I am the author of
-  <em>Living with Minds We Made</em>, a philosophical reflection on artificial intelligence and the human condition.
-  The book examines how AI reveals enduring questions about intelligence, freedom, creativity, work, privacy, and meaning, arguing that the central challenge of the AI era is not only technological progress but a deeper understanding of what it means to be human.
-</p>
+      <p class="book-excerpt">In this book I examine how AI reveals enduring questions about intelligence, freedom, creativity, work, privacy, and meaning — arguing that the central challenge of the AI era is not only technical progress but a deeper understanding of our relationship with intelligent systems.</p>
 
-<p>
-  <a href="https://www.amazon.de/dp/B0H63LSRSS" target="_blank">
-    Learn more about the book
-  </a>
-</p>
+      <div class="book-meta d-flex flex-wrap align-items-center">
+        <span class="badge badge-pill badge-primary">Author</span>
+        <span class="meta-sep">•</span>
+        <span class="muted">Philosophy &amp; AI</span>
+        <span class="meta-sep">•</span>
+        <a class="muted" href="https://www.amazon.de/dp/B0H63LSRSS" target="_blank">Buy on Amazon</a>
+      </div>
 
+      <div class="book-ctas mt-3">
+        <a class="btn btn-primary mr-2" href="https://www.amazon.de/dp/B0H63LSRSS" target="_blank">Buy the book</a>
+        <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Read an excerpt</a>
+      </div>
+
+      <div class="book-reviews mt-3">
+        <blockquote class="blockquote">
+          <p class="mb-0">"A thoughtful, humane take on AI's implications for what matters to us."</p>
+          <footer class="blockquote-footer">Reviewer name or publication</footer>
+        </blockquote>
+      </div>
+    </div>
   </div>
 </div>
