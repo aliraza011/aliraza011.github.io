@@ -6,16 +6,23 @@
   lon: 1.0784
   url: https://www.kent.ac.uk/
 
-- name: Lille
-  affiliation: Collaboration
+- name: University of Lille
+  affiliation: ENSAIT-Lille
   city: Lille, France
   lat: 50.6292
   lon: 3.0573
   url: https://en.wikipedia.org/wiki/Lille
 
 - name: Dong-A University
-  affiliation: IAD, Dong-A University
-  city: Busan, South Korea
+  affiliation: IAD, Đông Á University
+  city: Donga, Vietnam
   lat: 35.1689
   lon: 129.0726
-  url: https://www.donga.ac.kr/
+  url: https://donga.edu.vn/
+
+- name: Hongik University
+  affiliation: Hongik University
+  city: Seoul, South Korea
+  lat: 37.5503
+  lon: 126.9258
+  url: https://www.hongik.ac.kr/
