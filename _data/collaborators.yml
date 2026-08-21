@@ -1,0 +1,21 @@
+# Add collaborators here. Each entry should have: name, affiliation (optional), lat, lon, url (optional)
+- name: University of Kent
+  affiliation: ICSS, University of Kent
+  city: Canterbury, UK
+  lat: 51.2787
+  lon: 1.0784
+  url: https://www.kent.ac.uk/
+
+- name: Lille
+  affiliation: Collaboration
+  city: Lille, France
+  lat: 50.6292
+  lon: 3.0573
+  url: https://en.wikipedia.org/wiki/Lille
+
+- name: Dong-A University
+  affiliation: IAD, Dong-A University
+  city: Busan, South Korea
+  lat: 35.1689
+  lon: 129.0726
+  url: https://www.donga.ac.kr/

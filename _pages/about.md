@@ -54,6 +54,8 @@ I hold dual doctoral degree in Computer Science and in Informatics &amp; Automat
 I currently serve as a Senior Scientist at HRI-EU, where I actively contribute to both foundational and applied research initiatives. In addition, I am a Visiting Researcher at IAD, Dong-A University, and an Honorary Member of ICSS, University of Kent, England. I welcome opportunities for academic collaboration and interdisciplinary research; colleagues and prospective collaborators are encouraged to reach out via email to discuss potential joint work.
 </p>
 
+{%- include collaborators_map.html -%}
+
 <div class="book-feature">
   <div class="book-card row align-items-center">
     <div class="col-md-3 col-12 book-cover-wrap">
