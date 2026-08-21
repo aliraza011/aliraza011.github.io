@@ -21,9 +21,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 <div class="homepage-intro">
   <p class="eyebrow">Researcher • Scientist • Author</p>
-  <h2>Exploring how AI shapes human meaning, society, and security.</h2>
+  <h2>Exploring AI for society, and security.</h2>
   <p>
-    I build research at the intersection of machine learning, security, and responsible intelligence, with a focus on systems that are both technically robust and human-centered.
+    I build research at the intersection of machine learning, security, privacy and responsible intelligence, with a focus on systems that are both technically robust and human-centered.
   </p>
   <div class="cta-row">
     <a class="btn btn-primary" href="mailto:{{ site.email }}">Get in touch</a>
@@ -52,18 +52,6 @@ social: true  # includes social icons at the bottom of the page
 <p>
 I hold dual doctoral degree in Computer Science and in Informatics &amp; Automatics, with a specialization in Machine Learning. I was supervised by  <a href="https://www.hooklee.com"> Shujun Li</a>, <a href="https://www.linkedin.com/in/ludovic-koehl-03499343/" > Ludovic Koehl </a> and <a  href="https://sites.google.com/view/kim-phuc-tran"> Kim Phuc Tran</a> during my PhD. My research program is centered on several interrelated themes:
 </p>
-
-<ul>
-  <li>
-    <strong>Generative AI</strong>: Design and development of advanced deep learning architectures, with applications spanning healthcare, knowledge representation and understanding, as well as security and privacy.
-  </li>
-  <li>
-    <strong>AI Security &amp; Privacy</strong>: Investigation of methods for building secure and privacy-preserving AI systems, including federated learning, adversarial robustness, and the integration of cryptographic techniques.
-  </li>
-  <li>
-    <strong>Responsible AI</strong>: Advancement of principled AI development through fairness, transparency, and accountability, incorporating explainability, bias mitigation strategies, and ethical considerations.
-  </li>
-</ul>
 
 <p>
 I currently serve as a Senior Scientist at HRI-EU, where I actively contribute to both foundational and applied research initiatives. In addition, I am a Visiting Researcher at IAD, Dong-A University, and an Honorary Member of ICSS, University of Kent, England. I welcome opportunities for academic collaboration and interdisciplinary research; colleagues and prospective collaborators are encouraged to reach out via email to discuss potential joint work.
