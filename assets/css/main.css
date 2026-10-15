@@ -18,7 +18,7 @@
   --global-footer-text-color: #D4C9B8;
   --global-footer-link-color: #C5A572;
   --global-distill-app-color: #6B5D50;
-  --global-divider-color: #2B2118;
+  --global-divider-color: rgba(43, 33, 24, 0.22);
   --global-card-bg-color: #EDE7DA;
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -57,7 +57,7 @@ html[data-theme=dark] {
   --global-footer-text-color: #D4C9B8;
   --global-footer-link-color: #C5A572;
   --global-distill-app-color: #9C8E7C;
-  --global-divider-color: #D4C9B8;
+  --global-divider-color: rgba(212, 201, 184, 0.25);
   --global-card-bg-color: #1E1A16;
   --global-gold: #C5A572;
   --global-gold-light: #D4B88A;
@@ -1773,6 +1773,7 @@ article ul li::before {
    ============================================================ */
 
 .profile .img-fluid.rounded-circle {
+  border-radius: 0 !important;
   border: 3px double var(--global-rule-color);
   box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
