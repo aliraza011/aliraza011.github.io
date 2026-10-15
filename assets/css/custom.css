@@ -7,8 +7,8 @@
 .homepage-intro {
   margin: 1.5rem 0 2rem;
   padding: 2rem 0;
-  border-top: 4px double var(--global-rule-color);
-  border-bottom: 3px double var(--global-rule-color);
+  border-top: none;
+  border-bottom: none;
   background: transparent;
   text-align: center;
 }
@@ -95,8 +95,8 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0;
   margin: 2rem 0 2.5rem;
-  border-top: 2px solid var(--global-rule-color);
-  border-bottom: 2px solid var(--global-rule-color);
+  border-top: none;
+  border-bottom: none;
 }
 
 .research-card {
@@ -104,7 +104,7 @@
   padding: 1.3rem 1.1rem;
   background: transparent;
   border: none;
-  border-right: 1px solid var(--global-rule-light);
+  border-right: none;
   transition: none;
 }
 
@@ -173,7 +173,7 @@ html[data-theme="dark"] .homepage-intro {
   }
   .research-card {
     border-right: none;
-    border-bottom: 1px solid var(--global-rule-light);
+    border-bottom: none;
   }
   .research-card:last-child {
     border-bottom: none;
@@ -188,8 +188,8 @@ html[data-theme="dark"] .homepage-intro {
 .book-feature {
   margin: 2rem 0;
   padding: 1.5rem 0;
-  border-top: 3px double var(--global-rule-color);
-  border-bottom: 1px solid var(--global-rule-color);
+  border-top: none;
+  border-bottom: none;
 }
 
 .book-card {
@@ -280,7 +280,7 @@ html[data-theme='dark'] .book-links {
   width: 100%;
   height: 420px;
   border-radius: 0;
-  border: 2px solid var(--global-rule-color);
+  border: 1px solid var(--global-divider-color);
   margin-top: 1rem;
 }
 
