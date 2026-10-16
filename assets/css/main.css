@@ -1,25 +1,30 @@
 @charset "UTF-8";
 
 /* ============================================================
-   THE GAZETTE — Old Newspaper × Old Money Theme
-   Masthead headers, decorative rules, parchment palette,
-   justified text, drop caps, double-line borders.
+   OLD COZY — Warm library, aged parchment, leather & lamplight
    ============================================================ */
 
 :root {
-  --global-bg-color: #F5F0E6;
+  --global-bg-color: #F4EDE4;
+  --global-bg-texture: linear-gradient(
+    168deg,
+    rgba(180,155,120,0.04) 0%,
+    rgba(210,190,160,0.06) 30%,
+    rgba(180,155,120,0.03) 60%,
+    rgba(200,175,140,0.05) 100%
+  );
   --global-code-bg-color: rgba(101, 67, 33, 0.06);
-  --global-text-color: #2B2118;
-  --global-text-color-light: #6B5D50;
-  --global-theme-color: #7B1E2D;
-  --global-hover-color: #5A1420;
-  --global-hover-text-color: #F5F0E6;
-  --global-footer-bg-color: #1C1510;
+  --global-text-color: #3A2E25;
+  --global-text-color-light: #7A6B5A;
+  --global-theme-color: #8B3A3A;
+  --global-hover-color: #6D2828;
+  --global-hover-text-color: #FAF6F1;
+  --global-footer-bg-color: #2A2118;
   --global-footer-text-color: #D4C9B8;
-  --global-footer-link-color: #C5A572;
-  --global-distill-app-color: #6B5D50;
-  --global-divider-color: rgba(43, 33, 24, 0.22);
-  --global-card-bg-color: #EDE7DA;
+  --global-footer-link-color: #C9A96E;
+  --global-distill-app-color: #7A6B5A;
+  --global-divider-color: rgba(58, 46, 37, 0.12);
+  --global-card-bg-color: rgba(255, 252, 247, 0.6);
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
@@ -32,10 +37,12 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
-  --global-gold: #9C7A3C;
-  --global-gold-light: #B8976A;
-  --global-rule-color: #2B2118;
-  --global-rule-light: #A09484;
+  --global-gold: #B08D57;
+  --global-gold-light: #C9A96E;
+  --global-shadow-soft: 0 2px 16px rgba(58, 46, 37, 0.07);
+  --global-shadow-hover: 0 4px 24px rgba(58, 46, 37, 0.12);
+  --global-rule-color: rgba(58, 46, 37, 0.15);
+  --global-rule-light: rgba(58, 46, 37, 0.08);
   --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-body: 'Cormorant Garant', 'Libre Baskerville', Georgia, serif;
 }
@@ -46,23 +53,31 @@
 :root .repo-img-dark { display: none }
 
 html[data-theme=dark] {
-  --global-bg-color: #171310;
-  --global-code-bg-color: #1E1A16;
-  --global-text-color: #D4C9B8;
-  --global-text-color-light: #9C8E7C;
-  --global-theme-color: #C5A572;
-  --global-hover-color: #D4B88A;
-  --global-hover-text-color: #171310;
-  --global-footer-bg-color: #0E0C09;
-  --global-footer-text-color: #D4C9B8;
-  --global-footer-link-color: #C5A572;
-  --global-distill-app-color: #9C8E7C;
-  --global-divider-color: rgba(212, 201, 184, 0.25);
-  --global-card-bg-color: #1E1A16;
-  --global-gold: #C5A572;
-  --global-gold-light: #D4B88A;
-  --global-rule-color: #D4C9B8;
-  --global-rule-light: #6B5D50;
+  --global-bg-color: #1C1814;
+  --global-bg-texture: linear-gradient(
+    168deg,
+    rgba(60,45,30,0.3) 0%,
+    rgba(40,30,20,0.2) 50%,
+    rgba(60,45,30,0.25) 100%
+  );
+  --global-code-bg-color: #242018;
+  --global-text-color: #D9CEBD;
+  --global-text-color-light: #A89880;
+  --global-theme-color: #C9A96E;
+  --global-hover-color: #DFC088;
+  --global-hover-text-color: #1C1814;
+  --global-footer-bg-color: #12100C;
+  --global-footer-text-color: #D9CEBD;
+  --global-footer-link-color: #C9A96E;
+  --global-distill-app-color: #A89880;
+  --global-divider-color: rgba(217, 206, 189, 0.12);
+  --global-card-bg-color: rgba(36, 32, 24, 0.7);
+  --global-gold: #C9A96E;
+  --global-gold-light: #DFC088;
+  --global-shadow-soft: 0 2px 16px rgba(0, 0, 0, 0.2);
+  --global-shadow-hover: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --global-rule-color: rgba(217, 206, 189, 0.15);
+  --global-rule-light: rgba(217, 206, 189, 0.08);
 }
 
 html[data-theme=dark] .fa-sun { padding-left: 10px; padding-top: 12px; display: block }
@@ -78,6 +93,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  background-image: var(--global-bg-texture);
+  background-attachment: fixed;
   font-family: var(--font-body);
   font-size: 1.08rem;
   line-height: 1.8;
@@ -134,8 +151,10 @@ a, table.table a {
 
 a:hover, table.table a:hover {
   color: var(--global-hover-color);
-  text-decoration: none;
-  border-bottom: 1px solid var(--global-hover-color);
+  text-decoration: underline;
+  text-decoration-color: var(--global-gold);
+  text-underline-offset: 3px;
+  border-bottom: none;
 }
 
 a:hover:after :not(.nav-item.dropdown),
@@ -152,8 +171,9 @@ figure, img {
 }
 
 blockquote {
-  background: transparent;
-  border-left: 2px solid var(--global-gold);
+  background: rgba(176, 141, 87, 0.05);
+  border-left: 3px solid var(--global-gold);
+  border-radius: 0 6px 6px 0;
   margin: 1.5em 10px;
   padding: .5em 10px .5em 1.5em;
   font-size: 1.15rem;
@@ -197,9 +217,10 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
-  border: 1px solid var(--global-rule-color);
-  border-radius: 0;
-  box-shadow: none;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  box-shadow: var(--global-shadow-soft);
+  backdrop-filter: blur(2px);
 }
 
 .card img {
@@ -285,15 +306,14 @@ blockquote {
 
 .post-header .post-title {
   font-family: var(--font-heading);
-  font-weight: 900;
-  font-size: 2.6rem;
-  letter-spacing: 0.04em;
-  text-align: center;
-  margin-bottom: 0.5rem;
+  font-weight: 800;
+  font-size: 2.4rem;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-bottom: 0.3rem;
   text-transform: none;
-  border-top: none;
-  border-bottom: none;
-  padding: 0.8rem 0 0.6rem;
+  border: none;
+  padding: 0;
 }
 
 .post-header .desc {
@@ -302,9 +322,9 @@ blockquote {
   color: var(--global-text-color-light);
   font-style: italic;
   letter-spacing: 0.02em;
-  text-align: center;
-  border-bottom: none;
-  padding-bottom: 1rem;
+  text-align: left;
+  border: none;
+  padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -313,19 +333,19 @@ blockquote {
    ============================================================ */
 
 .navbar {
-  box-shadow: none;
   border-bottom: none;
   border-top: none;
   background-color: var(--global-bg-color);
+  background-image: var(--global-bg-texture);
   opacity: .98;
-  padding: 0.5rem 1rem;
-  box-shadow: 0 1px 0 var(--global-divider-color);
+  padding: 0.6rem 1rem;
+  box-shadow: 0 1px 8px rgba(58, 46, 37, 0.06);
 }
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-rule-color);
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 .navbar .dropdown-menu a:not(.active) {
@@ -356,18 +376,18 @@ blockquote {
 .navbar.navbar-light .navbar-brand {
   color: var(--global-text-color);
   font-family: var(--font-heading);
-  font-size: 1.4rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: none;
 }
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   color: var(--global-text-color);
   font-family: var(--font-heading);
-  font-size: 0.85rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: none;
   padding: 0.5rem 0.8rem;
   transition: color 0.3s ease;
 }
@@ -408,7 +428,7 @@ blockquote {
   width: 22px;
   height: 2px;
   background-color: var(--global-text-color);
-  border-radius: 0;
+  border-radius: 4px;
   margin-bottom: 4px;
   transition: all .2s;
 }
@@ -498,6 +518,7 @@ footer.fixed-bottom {
   font-size: .75rem;
   font-family: var(--font-body);
   border-top: none;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.05);
 }
 
 footer.fixed-bottom .container {
@@ -535,7 +556,7 @@ footer.sticky-bottom {
 .cv .card {
   background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-rule-color);
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 .cv .card .list-group-item {
@@ -547,7 +568,7 @@ footer.sticky-bottom {
   color: var(--global-card-bg-color) !important;
   background-color: var(--global-theme-color) !important;
   font-family: var(--font-body);
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 .table-cv-map {
@@ -650,7 +671,7 @@ footer.sticky-bottom {
 
 .pagination .page-item .page-link {
   color: var(--global-text-color);
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 .pagination .page-item .page-link:hover {
@@ -744,15 +765,16 @@ footer.sticky-bottom {
 }
 
 .publications h2.bibliography {
-  color: var(--global-text-color-light);
+  color: var(--global-gold);
   border-top: none;
   padding-top: 0.5rem;
   margin-top: 2.5rem;
-  margin-bottom: 0.75rem;
-  text-align: right;
-  font-style: italic;
-  font-size: 1.3rem;
-  letter-spacing: 0.04em;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-style: normal;
+  font-size: 1.4rem;
+  letter-spacing: 0.02em;
+  font-weight: 800;
 }
 
 .publications ol.bibliography {
@@ -783,7 +805,7 @@ footer.sticky-bottom {
   background-color: var(--global-theme-color);
   padding-left: 1rem;
   padding-right: 1rem;
-  border-radius: 0;
+  border-radius: 3px;
   font-family: var(--font-body);
   font-size: 0.85rem;
   letter-spacing: 0.03em;
@@ -842,7 +864,7 @@ footer.sticky-bottom {
   padding-top: .25rem;
   padding-bottom: .25rem;
   margin-left: 0;
-  border-radius: 0;
+  border-radius: 4px;
   font-family: var(--font-body);
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -1009,14 +1031,14 @@ figure.highlight {
 pre {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
-  border-radius: 0;
+  border-radius: 4px;
   padding: 6px 12px;
   border: 1px solid var(--global-rule-light);
 }
 
 pre pre, pre code {
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 4px;
   margin-bottom: 0;
   padding: 0;
 }
@@ -1024,7 +1046,7 @@ pre pre, pre code {
 code {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
-  border-radius: 0;
+  border-radius: 4px;
   padding: 3px 3px;
   font-size: 0.9em;
 }
@@ -1149,7 +1171,7 @@ progress::-moz-progress-bar {
 .code-display-wrapper .copy {
   background: var(--global-card-bg-color);
   border-color: var(--global-bg-color);
-  border-radius: 0;
+  border-radius: 4px;
   border-style: none;
   color: var(--global-text-color);
   font-size: medium;
@@ -1177,7 +1199,7 @@ progress::-moz-progress-bar {
 
 .btn-group.dropdown .btn-secondary.dropdown-toggle {
   border: 1px solid var(--global-rule-color);
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 .btn-group.dropdown .btn-secondary.dropdown-toggle .page-size {
@@ -1196,7 +1218,7 @@ progress::-moz-progress-bar {
 
 .btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 .btn-group.dropdown .dropdown-item {
@@ -1407,7 +1429,7 @@ d-article details {
   margin-top: 0;
   padding: 8px 12px;
   position: relative;
-  border-radius: 0;
+  border-radius: 4px;
   display: block;
   margin-bottom: 20px;
   grid-column: text;
@@ -1538,7 +1560,7 @@ table.table-cv {
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
-  border-radius: 0;
+  border-radius: 4px;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .25rem;
@@ -1681,7 +1703,7 @@ ul.timeline li {
 span.badge-toc {
   color: var(--global-bg-color);
   background-color: var(--global-theme-color);
-  border-radius: 0;
+  border-radius: 4px;
   padding: .125rem .5rem .125rem .5rem;
   font-weight: 700 !important;
   display: inline-block;
@@ -1728,11 +1750,11 @@ h5 {
   font-family: var(--font-heading);
   font-size: 1.1rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
-  color: var(--global-text-color);
+  letter-spacing: 0.03em;
+  color: var(--global-theme-color);
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  text-transform: uppercase;
+  text-transform: none;
   border-bottom: none;
   padding-bottom: 0.3rem;
 }
@@ -1775,8 +1797,9 @@ article ul li::before {
 
 .profile .img-fluid.rounded-circle {
   border-radius: 50% !important;
-  border: 2px solid var(--global-gold);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border: 3px solid var(--global-gold);
+  box-shadow: 0 4px 20px rgba(58, 46, 37, 0.12);
+  filter: sepia(5%) contrast(1.01);
 }
 
 /* ============================================================
@@ -1784,12 +1807,12 @@ article ul li::before {
    ============================================================ */
 
 ::selection {
-  background-color: rgba(123, 30, 45, 0.15);
+  background-color: rgba(176, 141, 87, 0.2);
   color: var(--global-text-color);
 }
 
 ::-moz-selection {
-  background-color: rgba(123, 30, 45, 0.15);
+  background-color: rgba(176, 141, 87, 0.2);
   color: var(--global-text-color);
 }
 
@@ -1807,7 +1830,7 @@ article ul li::before {
 
 ::-webkit-scrollbar-thumb {
   background: var(--global-gold);
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
